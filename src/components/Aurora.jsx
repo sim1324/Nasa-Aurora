@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import BlurText from './BlurText';
-import SplashCursor from './SplashCursor';  // import the effect
+// import SplashCursor from './SplashCursor';  // import the effect
 
 const Aurora = () => {
   const [showNext, setShowNext] = useState(true);
@@ -27,7 +27,7 @@ const Aurora = () => {
       />
 
       {/* Add the floating fluid color splash effect */}
-      <SplashCursor />
+      {/* <SplashCursor /> */}
 
       <div style={{
         position: 'relative',
